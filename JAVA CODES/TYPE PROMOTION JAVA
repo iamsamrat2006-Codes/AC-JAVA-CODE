@@ -1,0 +1,13 @@
+TYPE PROMOTION IN EXPRESSIONS
+1. JAVA AUTOMATICALLY promotes each byte ,short , or char operand to int when evaluating an EXPRESSIONS
+2. If ONE OPERAND is long, float , or double the whole expression is promoted to long ,float , or double respectively.
+
+
+//WRONG 
+byte b = 42;
+b= b * 2 ; //java automatically promotes b to int and the result of b*2 is int. so we cannot assign an int value to a byte variable. so we need to do explicit type conversion.
+
+
+//RIGHT
+byte b = 42;
+b= (byte) (b * 2); //explicit type conversion
