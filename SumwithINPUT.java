@@ -6,6 +6,9 @@ public class SumwithINPUT {
     int b = sc.nextInt();
     int sum = a+b; //for product int product = a*b;
     System.out.println(sum);
+
   }
-  
+//   javac SumwithINPUT.java
+// java SumwithINPUT
+  //for running the code in terminal
 }
