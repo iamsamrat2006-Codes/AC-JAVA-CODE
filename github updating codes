@@ -1,3 +1,4 @@
 git add .
 git commit -m "update java code"
-git push origin main
+git push origin main(for first time )
+git push ( for regular )
